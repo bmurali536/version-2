@@ -1,0 +1,160 @@
+ /* Main contact section container */
+.contact-section {
+  background-image: url('../../images/beautiful.jpg'); /* Correct the path */
+  background-size: cover;
+  background-position: center;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-size: x-large;
+}
+
+/* Butterfly image container */
+.butterfly-container img {
+  max-width: 150px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+/* Contact details section */
+.contact-details {
+  background-color: rgba(35, 35, 35, 0.5); /* Transparent dark overlay */
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  margin-right: 400px;
+}
+
+/* Contact item layout */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-item p {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+/* Icons styling */
+.contact1-icon {
+  font-size: 5.8rem;
+  color: #00c4cc;
+}
+.contact-icon {
+  font-size: 1.8rem;
+  color: #00c4cc;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #00e6e6;
+}
+
+/* Working hours styling */
+.working-hours {
+  margin-top: 30px;
+}
+
+.working-hours h4 {
+  font-size: 1.5rem;
+  color: #00e6e6;
+}
+
+.working-hours p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #e0e0e0;
+}
+
+/* General button styling */
+button {
+  background-color: #007aff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive design for max-width 768px */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 30px;
+  }
+
+  .contact-details {
+    width: 90%;
+    margin-right: 0; /* Reset margin for smaller screens */
+  }
+
+  .contact-item p {
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  .contact-icon {
+    font-size: 1.2rem;
+  }
+}
+
+/* Responsive design for max-width 480px (Mobile screens) */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 20px;
+  }
+
+  .contact-details {
+    width: 100%;
+    margin-right: 0;
+    padding: 20px;
+  }
+
+  .contact-item p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .contact-icon {
+    font-size: 1.2rem;
+  }
+
+  .working-hours h4 {
+    font-size: 1.2rem;
+  }
+
+  .working-hours p {
+    font-size: 0.9rem;
+  }
+  
+  /* Adjust button sizes for mobile */
+  button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}

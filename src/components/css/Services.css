@@ -1,0 +1,228 @@
+.csv1-image img {
+    width: 100%; 
+    height: 500px; 
+    margin-top: 20px;
+  }
+  .csvp1{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #060505;
+    padding: 0 20px;
+    max-width: 1100px;
+  }
+  .csvp1 h3{
+    text-align: center;
+    color: blue;
+  }
+
+  
+  .csv2-image img{
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 3px;
+    object-fit: cover;
+    margin-left: 230px;
+    
+    
+    
+
+  }
+  .csv-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(232, 20, 20);
+    text-align: center;
+    
+  }
+   .csv2-image{
+margin-left: 5px;
+width: 800px;
+   }
+
+
+.csv-image {
+    max-width: 00px;
+    height: auto;
+    border-radius: 8px;
+
+}
+.csv3-image{
+    width: 1000px;
+    height: 500px;
+}
+.cvssystem{
+    text-align: center;
+}
+.csv-system h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(233, 38, 244);
+    text-align: center;
+  }
+  .csv-system h3{
+    margin-left: 30px;
+    color: rgb(255, 0, 144);
+
+  }
+  .excel-image img{
+    width: 100%; 
+    height: 600px; 
+    margin-top: 20px;
+  }
+  .trainings-image img{
+    width: 100%; 
+    height: 600px; 
+    margin-top: 20px;
+
+  }  
+  .candq-image img{
+    width: 1300px; 
+    height: 600px; 
+    margin-top: 20px;
+    -ms-flex-item-align: auto;
+    margin-left: 70px;
+
+
+  }
+  .candq1 h2{
+    text-align: center;
+    color: blue;
+    
+  }
+  .candq1 h4{
+    margin-left: 30px;
+    font-size: large;
+  }
+  .cand2 h2{
+    margin-left: 10px;
+    color: rgb(185, 13, 13);
+    
+  }
+  .cand2 h4{
+    margin-left: 30px;
+    font-size: large;
+  }
+  .cand3 h2{
+    margin-left: 10px;
+    color: rgb(0, 130, 244);
+  }
+  .cand3 h4{
+    margin-left: 30px;
+    font-size: large;
+    font-size-adjust: none;
+  }
+  .cand4 h2{
+    margin-left: 10px;
+    color: rgb(0, 130, 244);
+    
+    
+  }
+  .cand4 h4{
+    margin-left: 30px;
+    font-size: large;
+  }
+
+  .excel1-text {
+    text-align: center;
+    color: black;
+  }
+  .excel-text .h4{
+    text-shadow: #a36060;
+  }
+  .excel2-text .h2{
+    color: aqua;
+    
+  }
+
+  /* Container for the Excel image */
+.excel-image {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+
+
+  }
+  
+  .excel-image img {
+    width: 100%;
+    max-width: 900px; /* Restricts the image to a max width */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; /* Rounds the corners */
+  }
+  
+  /* Main text styling */
+  .excel1-text, .excel2-text, .excel3-text, .excel4-text, .excel5-text, .excel6-text {
+    margin: 30px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+    transition: transform 0.3s ease; /* Animation on hover */
+  }
+  
+  /* Hover effect for text blocks */
+  .excel1-text:hover, .excel2-text:hover, .excel3-text:hover, .excel4-text:hover, .excel5-text:hover, .excel6-text:hover {
+    transform: translateY(-10px); /* Lifts the section slightly on hover */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+  }
+  
+  /* Heading styles */
+  .excel1-text h1, 
+  .excel2-text h2, 
+  .excel3-text h2, 
+  .excel4-text h2, 
+  .excel5-text h2, 
+  .excel6-text h2 {
+    color: #3a7bd5; /* A soft blue color for headings */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .excel1-text h4, 
+  .excel2-text h4, 
+  .excel3-text h4, 
+  .excel4-text h4, 
+  .excel5-text h4, 
+  .excel6-text h4 {
+    font-size: 1rem;
+    color: #333; /* Dark grey color for text */
+    line-height: 1.8; /* Improves readability */
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Adding margin between the sections */
+  .excel1-text, .excel2-text, .excel3-text, .excel4-text, .excel5-text, .excel6-text {
+    margin-bottom: 40px;
+  }
+  
+  /* Adjusting padding for mobile devices */
+  @media (max-width: 768px) {
+    .excel1-text, .excel2-text, .excel3-text, .excel4-text, .excel5-text, .excel6-text {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .excel1-text h1, 
+    .excel2-text h2, 
+    .excel3-text h2, 
+    .excel4-text h2, 
+    .excel5-text h2, 
+    .excel6-text h2 {
+      font-size: 1.5rem; /* Adjusts font size on smaller screens */
+    }
+  
+    .excel1-text h4, 
+    .excel2-text h4, 
+    .excel3-text h4, 
+    .excel4-text h4, 
+    .excel5-text h4, 
+    .excel6-text h4 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  

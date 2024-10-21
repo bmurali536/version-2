@@ -1,0 +1,67 @@
+ /* Container for all content */
+.clint-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main heading style */
+.clint-text h1 {
+  font-size: 2.5rem;
+  color: #2178fa;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Flexbox container for images */
+.clint-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Adds space between images */
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+
+/* Styling for each client image with specific sizes */
+.clint1-image img {
+  width: 450px; /* Custom size for image 1 */
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+.clint2-image img {
+  width: 300px; /* Custom size for image 2 */
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clint3-image img {
+  width: 400px; /* Custom size for image 3 */
+  height: 300px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for the images */
+.clint-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .clint-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clint1-image img, .clint2-image img, .clint3-image img {
+    width: 200px; /* Smaller size for mobile */
+  }
+}

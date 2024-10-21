@@ -1,0 +1,428 @@
+ /* Global settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Container for the first image */
+.csv5-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.csv5-image img {
+  width: 100%;
+  max-width: 1100px;
+  max-height: 550px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+
+/* Main container for the image and text */
+.csv-container {
+  display: flex;
+  justify-content: space-between;
+   margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+
+}
+
+/* Styling for the image */
+.csv10-image img {
+  width: 100%;
+  max-width: 500px; /* Limit image size */
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Styling for the text */
+.csv10-text {
+  flex: 1; /* Allow text to take the remaining space */
+  font-family: 'Arial', sans-serif;
+  color: #1a1818;
+  text-align: left; 
+ }
+
+.csv10-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4f47b8;
+  margin-bottom: 15px;
+}
+
+.csv10-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #208ffd;
+}
+
+.csv10-text h4 {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #302f2f;
+}
+
+/* Responsive styles for smaller screens */
+ 
+
+ 
+
+/* First paragraph section styling */
+.csvp1 {
+  text-align: justify;
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 10px;
+  line-height: 1.8;
+  font-size: 1em; /* Default font size for larger screens */
+}
+
+/* Heading styles */
+.csvp1 h3 {
+  font-size: 1.2em;
+  color: #111111;
+  margin-right: 10px;
+}
+
+/* Responsive styles for tablets (width <= 768px) */
+@media (max-width: 768px) {
+  .csvp1 {
+    padding: 8px;
+    font-size: 0.9em; /* Slightly smaller font for tablet screens */
+    line-height: 1.6;
+    margin: 15px auto; /* Reduce margins for smaller screens */
+  }
+
+  .csvp1 h3 {
+    font-size: 1.1em; /* Adjust heading size */
+  }
+}
+
+/* Responsive styles for phones (width <= 480px) */
+@media (max-width: 480px) {
+  .csvp1 {
+    padding: 5px; /* Minimal padding for small screens */
+    font-size: 0.9em; /* Smaller font size for phones */
+    line-height: 1.4; /* Tighter line height */
+    margin: 10px auto; /* Reduce margin on phones */
+  }
+
+  .csvp1 h3 {
+    font-size: 0.9em; /* Smaller heading size */
+  }
+}
+
+
+
+/* Second image styling */
+ /* Style for the CSV section */
+.csv-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background for visibility */
+}
+
+/* Text section */
+.csv-text {
+  flex: 1;
+  padding-right: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.csv-text h1 {
+  font-size: 29px;
+  color: #218df1;
+  margin-bottom: 15px;
+}
+
+.csv-text p {
+  font-size: 19px;
+  line-height: 1.5;
+  color: #1b1b1b;
+  font-family: bold;
+  font-weight: bold;
+}
+
+/* Image section */
+.csv4-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.csv4-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for image */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .csv-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .csv-text {
+    padding-right: 0;
+    padding-top: 20px;
+  }
+
+  .csv4-image img {
+    max-width: 80%;
+  }
+}
+
+
+ 
+
+/* Third section styling */
+.csv-text1 {
+  margin: 20px auto;
+  max-width: 1100px;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.csv-text1 h1 {
+  font-size: 2em;
+  color: #0077b6;
+  margin-bottom: 10px;
+  margin: 20px auto;
+  max-width: 1500px;
+  background-color: #eeeeee18;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  
+  
+}
+
+.csv-text1 ul  {
+  font-size: 1.1em;
+  color: #333;
+  text-align: justify;
+  margin-right: 10px;
+   font-size: large;
+   
+  margin: 2px auto;
+  max-width: 1200px;
+  background-color: #f3f3f3;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  
+
+}
+.csv-text1 li {
+  font-size: 20px;
+  color: #292828;
+  text-align: justify;
+  margin-left: 30px;
+  font-weight: bold; /* Correct way to apply bold text */
+  margin: 2px auto;
+  max-width: 1100px;
+}
+@media only screen and (max-width: 600px) {
+  .csv-text1 {
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .csv-text1 h1 {
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+  .csv-text1 ul {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .csv-text1 li {
+    font-size: 1em;
+    margin-left: 15px; /* Less indentation for smaller screens */
+  }
+}
+
+/* Medium devices (tablets, small laptops) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .csv-text1 {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .csv-text1 h1 {
+    font-size: 1.8em;
+  }
+
+  .csv-text1 ul {
+    font-size: 1.0em;
+  }
+
+  .csv-text1 li {
+    font-size: 1.em;
+    margin-left: 20px;
+  }
+}
+
+/* Large devices (desktops, large laptops) */
+@media only screen and (min-width: 1025px) {
+  .csv-text1 {
+    padding: 20px;
+    max-width: 1100px;
+  }
+
+  .csv-text1 h1 {
+    font-size: 2.2em;
+  }
+
+  .csv-text1 ul {
+    font-size: 1.2em;
+  }
+
+  .csv-text1 li {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+}
+/* System testing section */
+.csv-system {
+  margin: 20px auto;
+  max-width: 1100px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.csv-system h1 {
+  font-size: 2em;
+  color: #2176e4;
+  margin-bottom: 10px;
+}
+
+.csv-system p {
+  font-size: 17px;
+  color: #2d2c2c;
+  text-align: justify;
+  /* font-family: Arial, sans-serif; */
+  font-weight: bold;
+}
+
+/* Media Query for devices with a max width of 400px */
+@media (max-width: 400px) {
+  .csv-system h1 {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .csv-system p {
+    font-size: 15px; /* Smaller paragraph font size */
+  }
+}
+
+/* Media Query for devices with a max width of 500px */
+@media (max-width: 500px) {
+  .csv-system h1 {
+    font-size: 1.6em; /* Adjust font size */
+  }
+
+  .csv-system p {
+    font-size: 16px; /* Slightly smaller font size */
+  }
+}
+
+/* Media Query for devices with a max width of 768px */
+@media (max-width: 768px) {
+  .csv-system h1 {
+    font-size: 1.8em; /* Adjust font size for medium screens */
+  }
+
+  .csv-system p {
+    font-size: 17px; /* Maintain paragraph font size */
+  }
+}
+
+/* Media Query for devices with a max width of 832px */
+@media (max-width: 832px) {
+  .csv-system h1 {
+    font-size: 1.7em; /* Further adjust font size */
+  }
+
+  .csv-system p {
+    font-size: 16px; /* Adjust paragraph font size */
+  }
+}
+
+/* Media Query for devices with a max width of 1024px */
+@media (max-width: 1024px) {
+  .csv-system h1 {
+    font-size: 1.9em; /* Adjust font size */
+  }
+
+  .csv-system p {
+    font-size: 16px; /* Adjust paragraph font size */
+  }
+}
+
+
+/* Hover effect for images */
+.csv5-image img:hover, .csv4-image img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .csv1-image img, .csv4-image img {
+      width: 95%;
+  }
+
+  .csvp1 h3, .csv-text h3, .csv-system p {
+      font-size: 1em;
+  }
+
+  .csv-text h1, .csv-system h1  {
+      font-size: 1.9em;
+  } 
+  
+}
+@media (max-width: 768px) {
+  .csv-container {
+    flex-direction: column; /* Stack image and text vertically */
+    text-align: center;
+  }
+
+  .csv10-image {
+    margin-bottom: 40px;
+  }
+
+  .csv10-image img {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .csv10-text {
+    padding-left: 0;
+  }
+
+  .csv10-text h1 {
+    font-size: 2rem;
+  }
+
+  .csv10-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .csv10-text h4 {
+    font-size: 1rem;
+  }
+   
+}

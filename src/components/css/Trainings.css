@@ -1,0 +1,115 @@
+ 
+/* Global styles for consistency */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Styling the container for the entire section */
+.trainings-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.trainings-image img {
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.training {
+  text-align: center;
+  margin: 20px;
+}
+
+.training h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.training h4 {
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 1100px;
+   color: #363636;
+
+}
+
+/* Styling the individual sections */
+.trainings1, .trainings2, .trainings3, .trainings4, .trainings5, .training6, .training7 {
+  background-color: #f1f1f1;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.trainings1 h2, .trainings2 h2, .trainings3 h2, .trainings4 h2, .trainings5 h2, .training6 h2, .training7 h2 {
+  font-size: 1.8em;
+  color: #2872d3;
+  margin-bottom: 10px;
+}
+
+.trainings1 h1, .trainings2 h3, .trainings3 h3 {
+  font-size: 1.9em;
+  color: #03045e;
+  margin-bottom: 8px;
+
+}
+
+.trainings1 h4, .trainings2 h4, .trainings3 h4, .trainings4 h4, .trainings5 h4, .training6 h4, .training7 h4 {
+  font-size: 1.1em;
+  color: #3b3b3b;
+  line-height: 1.6;
+}
+
+.training7 h4 {
+  margin-bottom: 15px;
+}
+
+/* Hover effect for cards */
+.trainings1:hover, .trainings2:hover, .trainings3:hover, .trainings4:hover, .trainings5:hover, .training6:hover, .training7:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .trainings-image img {
+    width: 90%;
+  }
+
+  .training h1 {
+    font-size: 2em;
+  }
+
+  .training h4 {
+    font-size: 1em;
+  }
+
+  .trainings1 h2, .trainings2 h2, .trainings3 h2, .trainings4 h2, .trainings5 h2, .training6 h2, .training7 h2 {
+    font-size: 1.5em;
+  }
+
+  .trainings1 h3, .trainings2 h3, .trainings3 h3 {
+    font-size: 1.4em;
+  }
+
+  .trainings1 h4, .trainings2 h4, .trainings3 h4, .trainings4 h4, .trainings5 h4, .training6 h4, .training7 h4 {
+    font-size: 1em;
+  }
+}
+
+/* Footer padding */
+.training7 {
+  margin-bottom: 40px;
+}

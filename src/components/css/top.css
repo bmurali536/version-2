@@ -1,0 +1,9 @@
+.info_top_class{
+    background-color: rgb(77, 132, 252);
+    font-size: 1.1rem;
+    padding: 1px 100px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+}
